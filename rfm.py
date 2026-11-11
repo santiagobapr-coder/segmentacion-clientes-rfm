@@ -129,7 +129,7 @@ render_dashboard(
     sections=[
         {"title": "Quiénes compran y cuánto pesan", "note": "Cada cliente se clasifica por qué tan reciente compró, con qué frecuencia y cuánto gastó (RFM).", "figs": [fig1, fig2]},
         {"title": "Concentración de ingresos", "note": "Pocos clientes sostienen gran parte de las ventas: perderlos duele más que dejar de captar nuevos.", "figs": [fig3]},
-        {"title": "Plan de acción por segmento", "note": "Una acción distinta para cada grupo. La lista de clientes por segmento está en clientes_rfm.csv.", "html": tabla if False else plan},
+        {"title": "Plan de acción por segmento", "note": "Una acción distinta para cada grupo. La lista de clientes por segmento está en clientes_rfm.csv.", "html": plan},
     ],
 )
 print(seg.round(1))
